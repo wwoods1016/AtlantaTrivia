@@ -11,6 +11,10 @@ body {
     margin-top: 20px;
 }
 
+.btn-light {
+  background-color: #FFF1D0; 
+}
+
 h1 {
   margin-bottom: 20px;
 }
