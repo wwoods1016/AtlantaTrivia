@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atlanta Trivia</title>
+    <!-- Bootstrap, FontAwesome then local CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center logo-top">
+                <img src="assets/images/AtlantaLogo.png" class="img-fluid text-center" alt="Simpsons logo">
+                <h1 class="display-3">Test your knowledge</h1>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <img src="assets/images/Skyline.png" class="img-fluid text-center" alt="Atlanta Skyline">
+                <div>
+                    <h3 id="timer"></h3>
+                </div>
+            </div>
+
+            <div class="offset-md-1"></div>
+
+            <div class="col-md-8">
+                <div id="start-page" class="start-page-text">
+                    <h2>How it works</h2>
+                    <p>You've got <strong>60 seconds</strong> to answer as many questions as you can about this great
+                        city. <br> <br> Good luck!</p>
+                    <div class="btn btn-light" id="start-button">Start
+                    </div>
+                </div>
+
+                <div>
+                    <div id="questions-box">
+                    </div>
+                </div>
+
+                <div class="hidden" id="end-page">
+                    <h2>How'd you do?</h2>
+                    <p id="correct-answers"></p>
+                    <p id="incorrect-answers"></p>
+                    <p id="unanswered"></p>
+                </div>
+            </div>
+        </div>
+        <div class="row row 2">
+            <div class="col-md-12">
+                <footer id="footer">
+                    <p style="text-align: center">
+                        <span style="text-align: center">
+                            <a target="_blank" href="http://www.linkedin.com/in/wwoods1016/"><i
+                                    class="fab fa-linkedin fa-3x fa-fw">
+                                </i></a>
+                            <a target="_blank" href="http://www.github.com/wwoods1016/"><i
+                                    class="fab fa-github-square fa-3x fa-fw">
+                                </i></a>
+                        </span>
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- Jquery lib and local JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/game.js"></script>
+</body>
+
+</html>
