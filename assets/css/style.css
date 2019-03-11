@@ -15,6 +15,10 @@ body {
   background: #FFF1D0; 
 }
 
+.btn-light:hover {
+    color: #e5d8bb;
+}
+
 h1 {
   margin-bottom: 20px;
 }
